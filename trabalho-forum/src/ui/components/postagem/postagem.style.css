@@ -1,0 +1,9 @@
+
+.postagem {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+}
+

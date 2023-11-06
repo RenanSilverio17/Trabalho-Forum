@@ -1,0 +1,24 @@
+
+.balao-direita {
+    width: 70%;
+    height: 70%;
+    background-color: #D9D9D9;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 75px;
+}
+
+.balao-direita::before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width:  0 0 31px 21px;
+    border-color: transparent transparent #D9D9D9 transparent;
+    margin-top: 10%;
+}
+
+.balao-direita p {
+    margin: 10px 15px;
+}

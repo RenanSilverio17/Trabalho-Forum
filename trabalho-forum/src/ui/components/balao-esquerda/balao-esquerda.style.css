@@ -1,0 +1,22 @@
+
+.balao-esquerda {
+    width: 70%;
+    height: 70%;
+    background-color: #D9D9D9;
+    border-radius: 25px;
+    display: flex;
+}
+
+.balao-esquerda:before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px 0 0 20px;
+    border-color: transparent transparent transparent #D9D9D9;
+    margin-top: 10%;
+}
+
+.balao-esquerda p {
+    margin: 10px 15px;
+}

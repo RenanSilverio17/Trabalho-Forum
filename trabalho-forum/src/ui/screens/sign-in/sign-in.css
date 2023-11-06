@@ -1,0 +1,116 @@
+.sign-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.background-blue {
+  background-color: #58af9c;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.sign-container .sign-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.sign-container .sign-header span {
+  padding-top: 15px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.sign-container form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sign-container form .sign-inputContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.sign-container form .sign-inputContainer label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 8px;
+}
+
+.sign-container form .sign-inputContainer input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  width: 50vh;
+  height: 17px;
+
+  border: 1px solid #58af9c;
+  border-radius: 12px;
+  background-color: #d9d9d9;
+}
+
+.sign-container form a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #58af9c;
+}
+
+.sign-container form .sign-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+
+  width: 130px;
+  height: 15px;
+
+  background-color: #58af9c;
+  border-radius: 12px;
+
+  font-size: 15px;
+  line-height: 22px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+
+.sign-container form .sign-button:hover {
+  cursor: pointer;
+  opacity: 0sign-8;
+}
+
+.sign-Quadrado {
+  background-color: #ffffff;
+  border-radius: 30px;
+  width: 40vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10vh;
+  margin-left: 30vw;
+}
+
+.sign-logo {
+  width: 76vh;
+  height: 18vh;
+}

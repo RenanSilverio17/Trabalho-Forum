@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
+
+.notificacoes {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Aleo', sans-serif;
+}
+
+.menu-botao{
+ text-decoration: none;
+}
